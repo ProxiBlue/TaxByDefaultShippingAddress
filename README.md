@@ -12,6 +12,14 @@ Ref: https://gitlab.hyva.io/hyva-themes/magento2-default-theme/-/issues/1182
 
 ## Install
 
+You can install via composer:
+
+* composer config repositories.github.repo.repman.io composer https://github.repo.repman.io
+* composer require proxi-blue/module-tax-by-default-shipping-address
+* ./bin/magento module:enable ProxiBlue_TaxByDefaultShippingAddress
+* ./bin/magento setup:upgrade
+* ./bin/magento setup:di:compile
+
 
 
 
