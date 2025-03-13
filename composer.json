@@ -1,6 +1,6 @@
 {
   "name": "proxi-blue/module-tax-by-default-shipping-address",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simply sets the default shipping address as the tax address used for any tax calculations.",
   "type": "magento2-module",
   "require": {
