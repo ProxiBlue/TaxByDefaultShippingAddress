@@ -5,7 +5,8 @@ Simply sets the default shipping address as the tax address used for any tax cal
 This module allows Hyva cart to use the logged-in user default shipping address
 for cart tax lookup.
 
-My fix involves an after plugin onto a core method. I am sure there is a better 'hyva-way' to fix this, so this module exists as an interim solution.
+My fix involves an afterMethod plugin of core method. It doe snot populate or show the address details in the cart display.
+Ideally this should be fixed at cart render, and the api call adjusted
 
 ## Reproduce
 Ref: https://gitlab.hyva.io/hyva-themes/magento2-default-theme/-/issues/1182
